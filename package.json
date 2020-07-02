@@ -1,0 +1,28 @@
+{
+  "name": "dapp_pagos",
+  "version": "1.0.0",
+  "description": "ejemplo de dapp para depositos",
+  "main": "db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancoGT/Dapp_Pagos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrancoGT/Dapp_Pagos/issues"
+  },
+  "homepage": "https://github.com/FrancoGT/Dapp_Pagos#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4",
+    "paypal-rest-sdk": "^1.8.1"
+  }
+}
